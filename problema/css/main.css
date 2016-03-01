@@ -1,0 +1,254 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding-right: 40px!important;
+    padding-left: 40px!important;
+}
+.navbar-default {
+    background-color: transparent;
+    border:none; 
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    padding-top: 3%;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #2098d1;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 1.3em;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 4%;
+}
+.logo{
+    width: 62%;
+    color: white;
+}
+.logo-2 {
+    width: 55%;
+   color: white;
+   font-weight: 300;
+}
+.navbar-header{
+    padding: 3%;
+}
+.hero{
+    background-image: url(../image/large.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flex{
+    display: flex;
+}
+.sec-2{
+    background-image: url(../image/sec-2.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.oscurito{
+    background-color:#46505B;
+    opacity: 0.7;
+    z-index: 1;
+    height: 100%;
+    position: relative;
+}
+#menu.active {
+  	background-color: #46505B;
+}
+.collapse ul{
+    margin-right: 0;
+}
+.container h1{
+    position: absolute;
+    z-index: 5;
+    padding-top: 18%;
+    padding-left: 12%;
+    padding-right: 17%;
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+}
+.pull-right {
+	color: white;
+	z-index: 5;
+	font-weight: 400;
+}
+.sky-blue{
+    background-color:rgba(82,141,210,0.8);        
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2.4%;
+    margin-top: -11.2%;
+    color: white;
+}
+.tw{
+    color:white;
+}
+.botones{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 210px;
+    font-size: 2em;
+    margin-top: 4%;
+    width: 60%;
+    color: #fff;
+}
+.botones:hover{
+    background-color: white;
+    border: 2px solid rgba(82,141,210,0.8);
+    color: rgba(82,141,210,0.8);
+    font-weight: bold;
+
+}
+.pt-8 {
+    padding-top: 8%;   
+}
+.pt-5 {
+    padding-top: 5%; 
+}
+.mg-none {
+     margin-top: 0;
+}
+.nuestro{
+    color: #68ADFF;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 4%;: 
+}
+#segunda{
+    padding: 2%;
+}
+.text-icon {
+    text-align: center;
+    color: rgb(105, 135, 164);
+    font-size: 1.8em;
+    margin-bottom: 0;
+}
+.text-icon2{
+    text-align: center;
+    color: rgb(105, 135, 164);
+    font-size: 1.8em;
+    margin-top: 0;
+}
+.icon{
+    font-size: 3em;
+    text-align: center;
+    width: 150px;
+    line-height: 143px;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    color: #5EA7FF;
+    position: relative;
+    margin: 0 auto 35px;
+    margin-top: 5%;
+    box-shadow: -1px 3px 7px 0px rgba(0, 0, 0, 0.11);
+}
+.icon a{
+    text-decoration: none;
+}
+.separador{
+    position: relative;
+    top: 97px;
+    left: 46%;
+    z-index: 20;
+}
+.pasos {
+    padding-top: 5%;
+    color: #68ADFF;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.step-icon i{
+    font-size: 2.3em;
+    text-align: center;
+    position: relative;
+    top: 22%;
+    left: 24%;
+    color: white;
+}
+.iconos{
+    text-align: center;
+}
+.step-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #50BDEA;
+    position: absolute;
+    right: -4%;
+    top: 100px;
+    z-index: 15;
+}
+.herramientas {
+    top: 45%;
+}
+.lupita{
+    top: 70%;
+}
+.flecha{
+    padding-left:245px;
+}
+.banner{
+    background-image: url(../image/banner.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.margin-0{
+    margin: 0;
+}
+.pd-box{
+    padding:1% 8% 1.09%;
+}
+.separador-2{
+    position: relative;
+    top: -76px;
+    left: 46%;
+    z-index: 20;
+}
+.intro{
+    background-image: url(../image/intro.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fondo-footer{
+ background-color: rgba(82,141,210,0.8);
+ padding: 5%;
+ color: #fff; 
+}
+.bg-black{
+    background-color: #2A3541;
+    color: white;
+    padding: 1.5%;
+}
+.redes{
+    margin: 2%;
+    font-size: 2.8em;
+}
+.redes:hover{
+   color: white; 
+   border: none; 
+}
+.pd-2{
+    padding: 2%;
+}

@@ -1,0 +1,62 @@
+@media screen and (min-width:100px){
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-size: 1em;
+    }
+    .navbar-header{
+        padding: 0;
+    }
+    .sky-blue{
+        background-color: #528DD2;
+        padding: 2%;
+        z-index: 1;
+    }
+    .sky-blue .uno{
+        text-align: center;
+    }
+    #primera{
+        margin-top: 20%;
+    }
+    #primera h3{
+        margin-top: 10%;
+    }
+    .navbar-toggle{
+        margin-top: 5%;
+    }
+    .botones{
+        width: 100%;
+    }
+    #comprar{
+        padding-top: 5%; 
+    }
+    .nuestro{
+        padding-top: 10%;
+        margin-top: 3%;
+    }
+    .navbar-default .navbar-brand {
+        color: #777;
+        width: 80%;
+        margin-top: 3%;
+    }
+    .separador, .separador-2{
+        display:none;
+    }
+    .flecha{
+        display: none;
+    }
+    .iconos{
+        text-align: center;
+    }
+    .iconos .description{
+        width: 60%;
+        text-align: center;
+        margin-left:20%;
+    }
+    footer .dos{
+        text-align: center;
+    }
+    .pasos{
+        font-weight: bold;
+    }
+
+ }
