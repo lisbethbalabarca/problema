@@ -67,7 +67,8 @@ p{
     position: relative;
 }
 #menu.active {
-  	background-color: #46505B;
+  	background-color: #2098d1;
+    color: #fff;
 }
 .collapse ul{
     margin-right: 0;
